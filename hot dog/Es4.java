@@ -1,0 +1,21 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Es4 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Es4 extends Actor
+{
+    GifImage myGif = new GifImage("5.1.gif");
+    /**
+     * Act - do whatever the Es4 wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act()
+    {
+        // Add your action code here.
+        setImage(myGif.getCurrentImage()); 
+    }
+}
