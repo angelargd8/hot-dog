@@ -26,7 +26,7 @@ public class Escenario_8 extends World
             addObject(new Croqueta(), getWidth()-1,Greenfoot.getRandomNumber(1)+237);
         }
         //addObject(new Casa(), getWidth()-10,237);
-        showText("Recoje 6 croquetas!, no.croquetas: "+ collect,250,30);
+        showText("Recoje 5 croquetas!, no.croquetas: "+ collect,250,30);
     }
     
     /**
