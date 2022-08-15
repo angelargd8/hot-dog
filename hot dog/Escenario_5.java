@@ -16,7 +16,7 @@ public class Escenario_5 extends World
     public Escenario_5()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1500, 600, 1); 
+        super(3500, 600, 1); 
         prepare();
     }
     public void act()
@@ -25,6 +25,7 @@ public class Escenario_5 extends World
             addObject(new Croqueta(), getWidth()-1,Greenfoot.getRandomNumber(350)+200);
         }
         showText("Croquetas: "+ collect,70,30);
+        
     }
     
     /**
@@ -203,5 +204,137 @@ public class Escenario_5 extends World
         nube6.setLocation(61,134);
         Croqueta croqueta3 = new Croqueta();
         addObject(croqueta3,710,456);
+        Croqueta croqueta4 = new Croqueta();
+        addObject(croqueta4,1267,269);
+        Croqueta croqueta5 = new Croqueta();
+        addObject(croqueta5,1467,429);
+        Arbol arbol15 = new Arbol();
+        addObject(arbol15,2400,550);
+        Arbol arbol16 = new Arbol();
+        addObject(arbol16,2045,551);
+        Arbol arbol17 = new Arbol();
+        addObject(arbol17,2235,562);
+        arbol16.setLocation(1823,553);
+        Arbol arbol18 = new Arbol();
+        addObject(arbol18,1992,551);
+        arbol16.setLocation(1582,572);
+        Piso piso16 = new Piso();
+        addObject(piso16,1933,555);
+        Piso piso17 = new Piso();
+        addObject(piso17,2204,560);
+        Piso piso18 = new Piso();
+        addObject(piso18,2395,431);
+        Piso piso19 = new Piso();
+        addObject(piso19,2055,326);
+        Piso piso20 = new Piso();
+        addObject(piso20,2349,244);
+        Piso piso21 = new Piso();
+        addObject(piso21,1550,572);
+        PisoHigh pisoHigh = new PisoHigh();
+        addObject(pisoHigh,1840,209);
+        piso21.setLocation(1508,566);
+        Croqueta croqueta6 = new Croqueta();
+        addObject(croqueta6,1935,502);
+        Croqueta croqueta7 = new Croqueta();
+        addObject(croqueta7,2379,397);
+        Croqueta croqueta8 = new Croqueta();
+        addObject(croqueta8,2053,284);
+        croqueta5.setLocation(1534,449);
+        croqueta5.setLocation(1659,413);
+        PisoMid pisoMid = new PisoMid();
+        addObject(pisoMid,1375,481);
+        pisoMid.setLocation(1346,480);
+        Croqueta croqueta9 = new Croqueta();
+        addObject(croqueta9,1365,444);
+        Croqueta croqueta10 = new Croqueta();
+        addObject(croqueta10,1431,203);
+        piso21.setLocation(1527,575);
+        Piso piso22 = new Piso();
+        addObject(piso22,2346,593);
+        piso22.setLocation(2374,575);
+        Croqueta croqueta11 = new Croqueta();
+        addObject(croqueta11,1849,168);
+        croqueta11.setLocation(1581,170);
+        croqueta11.setLocation(1689,180);
+        croqueta11.setLocation(1701,178);
+        croqueta11.setLocation(1880,162);
+        croqueta.setLocation(939,335);
+        croqueta9.setLocation(1300,446);
+        croqueta4.setLocation(1214,276);
+        nube8.setLocation(1399,210);
+        croqueta5.setLocation(1625,415);
+        croqueta5.setLocation(1549,409);
+        croqueta11.setLocation(1737,156);
+        croqueta8.setLocation(1946,286);
+        croqueta6.setLocation(1849,506);
+        croqueta7.setLocation(2307,401);
+        croqueta7.setLocation(2307,401);
+        arbol15.setLocation(2391,516);
+        Croqueta croqueta12 = new Croqueta();
+        addObject(croqueta12,2391,516);
+        arbol15.setLocation(2177,521);
+        croqueta.setLocation(931,324);
+        arbol15.setLocation(2078,562);
+        arbol15.setLocation(2093,544);
+        Piso piso23 = new Piso();
+        addObject(piso23,2665,568);
+        Piso piso24 = new Piso();
+        addObject(piso24,3057,561);
+        Piso piso25 = new Piso();
+        addObject(piso25,3380,546);
+        PisoMid pisoMid2 = new PisoMid();
+        addObject(pisoMid2,2876,402);
+        PisoMid pisoMid3 = new PisoMid();
+        addObject(pisoMid3,3276,311);
+        pisoMid3.setLocation(3250,354);
+        piso25.setLocation(3350,561);
+        piso24.setLocation(3126,567);
+        Croqueta croqueta13 = new Croqueta();
+        addObject(croqueta13,2871,507);
+        croqueta13.setLocation(2907,508);
+        Croqueta croqueta14 = new Croqueta();
+        addObject(croqueta14,3077,305);
+        Croqueta croqueta15 = new Croqueta();
+        addObject(croqueta15,2673,352);
+        Croqueta croqueta16 = new Croqueta();
+        addObject(croqueta16,3251,506);
+        piso16.setLocation(1821,561);
+        piso16.setLocation(1901,555);
+        croqueta6.setLocation(1841,521);
+        piso16.setLocation(1745,555);
+        piso16.setLocation(1792,565);
+        piso16.setLocation(1778,514);
+        croqueta6.setLocation(1842,490);
+        croqueta6.setLocation(1842,486);
+        piso16.setLocation(1954,557);
+        piso16.setLocation(1857,552);
+        PisoHigh pisoHigh2 = new PisoHigh();
+        addObject(pisoHigh2,3036,224);
+        pisoHigh2.setLocation(3061,252);
+        croqueta14.setLocation(3198,326);
+        croqueta14.setLocation(3196,325);
+        croqueta14.setLocation(3197,316);
+        PisoMid pisoMid4 = new PisoMid();
+        addObject(pisoMid4,3480,412);
+        Croqueta croqueta17 = new Croqueta();
+        addObject(croqueta17,3489,353);
+        croqueta17.setLocation(3485,365);
+        croqueta17.setLocation(3485,364);
+        Arbol arbol19 = new Arbol();
+        addObject(arbol19,2827,568);
+        Arbol arbol20 = new Arbol();
+        addObject(arbol20,2924,571);
+        croqueta13.setLocation(2996,493);
+        arbol20.setLocation(2898,566);
+        Arbol arbol21 = new Arbol();
+        addObject(arbol21,2993,561);
+        Arbol arbol22 = new Arbol();
+        addObject(arbol22,2538,576);
+        Croqueta croqueta18 = new Croqueta();
+        addObject(croqueta18,3441,549);
+        croqueta18.setLocation(3446,532);
+        Croqueta croqueta19 = new Croqueta();
+        addObject(croqueta19,621,234);
+        croqueta19.setLocation(638,243);
     }
 }

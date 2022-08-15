@@ -21,6 +21,7 @@ public class menu1 extends World
         super(600, 400, 1); 
         addObject(menu,300,200);
         preparar();
+        musica();
     }
     private void preparar()
     {
@@ -43,5 +44,11 @@ public class menu1 extends World
                 break;
             }
         }
+    }
+    private void musica(){//añade musica al juego
+        GreenfootSound musica = new GreenfootSound("musica.mp3");
+        musica.setVolume(25);
+        musica.playLoop();
+    
     }
 }

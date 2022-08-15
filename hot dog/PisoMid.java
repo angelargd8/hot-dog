@@ -1,18 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Piso here.
+ * Write a description of class PisoMid here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Piso extends Actor
+public class PisoMid extends Actor
 {
     /**
-     * Act - do whatever the Piso wants to do. This method is called whenever
+     * Act - do whatever the PisoMid wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public Piso()
+    public PisoMid()
     {
         // Add your action code here.
         getImage().scale(getImage().getWidth()*6,getImage().getHeight()*2);
@@ -27,7 +27,7 @@ public class Piso extends Actor
             move(5);
         }
         if (getX()==0){
-            setLocation(getWorld().getWidth()-1, Greenfoot.getRandomNumber((1000)+570));
+            setLocation(getWorld().getWidth()-1, Greenfoot.getRandomNumber((300)+400));
         }
         
     }
